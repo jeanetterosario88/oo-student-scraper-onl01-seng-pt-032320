@@ -12,7 +12,7 @@ class Student
     @@all << self
   end
 
-  def self.create_from_collection(allstudentshasharray)
+  def self.create_from_collection(allstudenthashsarray)
     allstudenthashsarray.each do |student_hash|
       self.new(student_hash)
     end
